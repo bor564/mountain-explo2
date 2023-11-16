@@ -1,0 +1,74 @@
+`<!DOCTYPE html>`
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/enjoy-the-outdoors/css/style.css">
+    
+    <title>National Parks Search</title>
+</head>
+<body>
+    
+        <header>
+            <h1>Great Outdoors Explorer</h1>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/national_park.html">National Parks</a></li>
+                    <li><a href="/mountain.html">Mountains</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        
+    
+       
+   
+
+
+
+    <main>
+        <main>
+            <section class="search-options">
+                <h2>Search National Parks</h2>
+                <form id="parkSearchForm">
+                    <label for="locationSelect">Search by Location:</label>
+                    <select id="locationSelect" name="locationSelect"></select>
+        
+                    <label for="parkTypeSelect">Search by Park Type:</label>
+                    <select id="parkTypeSelect" name="parkTypeSelect"></select>
+        
+                    <button type="button" id="searchButton" >Search</button>
+                </form>
+            </section>
+        
+            <section class="park-list">
+                <h2>National Parks List</h2>
+                <table id="parksTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Location</th>
+                            <th>Type</th>
+                        </tr>
+                    </thead>
+                    <tbody id="parksTableBody"></tbody>
+                </table>
+            </section>
+        </main>
+        
+    </main>
+
+
+<!-- Content -->
+
+<script src="/enjoy-the-outdoors/scripts/national_parks.js"></script>
+<script src="/enjoy-the-outdoors/scripts/locationData.js"></script>
+<script src="/enjoy-the-outdoors/scripts/nationalParkData.js"></script>
+<script src="/enjoy-the-outdoors/scripts/parkTypeData.js"></script>
+
+<footer>
+    <p>&copy; 2023 Great Outdoors Explorer</p>
+</footer>
+</body>
+</html>
