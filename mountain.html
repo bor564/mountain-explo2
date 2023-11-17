@@ -20,15 +20,31 @@
             </nav>
         </header>
     
-        <main>
+       
             
             <main>
                 <h1>Mountains Information</h1>
             
-                <!-- Add your mountain information dropdown and details here -->
-            
+                
+                        <label for="mountainSelect">Select a Mountain:</label>
+                        <select id="mountainSelect" name="mountainSelect" onchange="displayMountainInfo()"></select>
+                
+                        <div id="mountainInfo"></div>
+                    </main>
+                
+                    <script src="/enjoy-the-outdoors/scripts/mountainData.js"></script>
+                    <script src="/enjoy-the-outdoors/scripts/mountain.js"></script>
+                    <script src="/enjoy-the-outdoors/scripts/locationData.js"></script>
+                
+                
+                </html>
+
+                <div id="moutainDataStorage">
+                    
+                </div>
+                
             </main>
-        </main>
+        
     
         <footer>
             <p>&copy; 2023 Great Outdoors Explorer</p>
