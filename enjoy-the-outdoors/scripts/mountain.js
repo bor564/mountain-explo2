@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <!-- Add more information as needed -->
   
               <!-- Optional: Display mountain image -->
-              <img src="images/${mountain.img}" alt="${mountain.name}">
+              <img src="/enjoy-the-outdoors/images/${mountain.img}" alt="${mountain.name}">
           `;
 
       mountainInfoDiv.innerHTML = mountainInfo;
